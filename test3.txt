@@ -1,1 +1,72 @@
 This is test3.txt file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Images and Captions</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        img {
+            max-width: 100px; /* Adjust the size as needed */
+            height: auto;
+        }
+        figcaption {
+            font-size: 12px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h2>Table with Images and Captions</h2>
+    <table>
+        <caption>Images with Captions</caption>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <figure>
+                        <img src="https://via.placeholder.com/100" alt="Placeholder Image 1">
+                        <figcaption>Caption for Image 1</figcaption>
+                    </figure>
+                </td>
+                <td>Image 1 Description</td>
+            </tr>
+            <tr>
+                <td>
+                    <figure>
+                        <img src="https://via.placeholder.com/100" alt="Placeholder Image 2">
+                        <figcaption>Caption for Image 2</figcaption>
+                    </figure>
+                </td>
+                <td>Image 2 Description</td>
+            </tr>
+            <tr>
+                <td>
+                    <figure>
+                        <img src="https://via.placeholder.com/100" alt="Placeholder Image 3">
+                        <figcaption>Caption for Image 3</figcaption>
+                    </figure>
+                </td>
+                <td>Image 3 Description</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
